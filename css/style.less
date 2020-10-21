@@ -1,4 +1,5 @@
 @font-color:white;
+
 @color-ciencia:#07666e;
 @color-bioquimica: #64b164;
 @color-inventoras: #4d80e0;
@@ -8,6 +9,19 @@
 @color-astronomas: #c03232;
 @color-fisicas: #f19b39;
 @color-quimicas:#e6f331;
+
+@color-ciencia-hover:#128b96;
+@color-bioquimica-hover: #b1ebb1;
+@color-inventoras-hover: #6a99f0;
+@color-paleontologas-hover:#76bac0;
+@color-primatologas-hover: #9aecf3;
+@color-matematicas-hover: #b03fcc;
+@color-astronomas-hover: #ec5959;
+@color-fisicas-hover: #f3b062;
+@color-quimicas-hover:#e7ee80;
+
+
+
 
 @color-texto1:white;
 @color-texto2:rgb(28, 99, 22);
@@ -45,7 +59,7 @@ h2{
 
 
 
-
+//-------------------------------------------
 .caja-ciencias{
     height: 50px;
     width: 50px;
@@ -53,6 +67,15 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+
+.caja-ciencias:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-ciencia-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//------------------------------------------
 .caja-bioquimicas{
     height: 50px;
     width: 50px;
@@ -60,6 +83,14 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+.caja-bioquimicas:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-bioquimica-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//------------------------------------------------
 .caja-inventora{
     height: 50px;
     width: 50px;
@@ -67,6 +98,15 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+
+.caja-inventora:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-inventoras-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//--------------------------------------------------
 .caja-paleontologas{
     height: 50px;
     width: 50px;
@@ -74,6 +114,14 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+.caja-paleontologas:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-paleontologas-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//-----------------------------------------------------
 .caja-primatologas{
     height: 50px;
     width: 50px;
@@ -81,6 +129,14 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+.caja-primatologas:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-primatologas-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//---------------------------------------------------------
 .caja-matematicas{
     height: 50px;
     width: 50px;
@@ -88,6 +144,14 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+.caja-matematicas:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-matematicas-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//-------------------------------------
 .caja-astronomas{
     height: 50px;
     width: 50px;
@@ -95,6 +159,14 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+.caja-astronomas:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-astronomas-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//--------------------------------------------------------
 .caja-fisicas{
     height: 50px;
     width: 50px;
@@ -102,10 +174,25 @@ h2{
     color: @color-texto1;
     cursor: pointer;
 }
+.caja-fisicas:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-fisicas-hover;
+    color: @color-texto1;
+    cursor: pointer;
+}
+//-----------------------------------------------------------
 .caja-quimicas{
     height: 50px;
     width: 50px;
     background-color: @color-quimicas;
+    color: @color-texto2;
+    cursor: pointer;
+}
+.caja-quimicas:hover{
+    height: 50px;
+    width: 50px;
+    background-color: @color-quimicas-hover;
     color: @color-texto2;
     cursor: pointer;
 }
@@ -177,6 +264,11 @@ h2{
 }
 
 
+
+
+
+
+//-------------------------------------------------------
 @media(max-width: 1000px){
     h1{
         margin: 0px;
@@ -186,14 +278,17 @@ h2{
     }
 
     h2{
-        padding-left: 20px;
-        padding-top: 10px;
+        margin: 0px;
+        padding-left: 150px;
+        padding-bottom: 10px;
         text-align: center;
     }
+
     body{
-        margin: 40px;
+        margin: 0px;
         background-color:@font-color;
         padding: 10px;
+        text-align: center;
     }
         
     .tabla-titulos{
