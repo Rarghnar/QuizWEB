@@ -1,0 +1,304 @@
+body {
+  margin: 40px;
+  background-color: white;
+  padding: 10px;
+}
+h1 {
+  margin: 0px;
+  padding-left: 300px;
+  padding-bottom: 10px;
+}
+h2 {
+  padding-left: 400px;
+  padding-top: 50px;
+}
+.tabla-titulos {
+  margin-left: 200px;
+}
+.fila {
+  text-align: center;
+}
+.tabla2 {
+  margin-left: 216px;
+  margin-top: 20px;
+}
+.caja-ciencias {
+  height: 50px;
+  width: 50px;
+  background-color: #07666e;
+  color: white;
+  cursor: pointer;
+}
+.caja-bioquimicas {
+  height: 50px;
+  width: 50px;
+  background-color: #64b164;
+  color: white;
+  cursor: pointer;
+}
+.caja-inventora {
+  height: 50px;
+  width: 50px;
+  background-color: #4d80e0;
+  color: white;
+  cursor: pointer;
+}
+.caja-paleontologas {
+  height: 50px;
+  width: 50px;
+  background-color: #4babb4;
+  color: white;
+  cursor: pointer;
+}
+.caja-primatologas {
+  height: 50px;
+  width: 50px;
+  background-color: #71c6ce;
+  color: white;
+  cursor: pointer;
+}
+.caja-matematicas {
+  height: 50px;
+  width: 50px;
+  background-color: #7e1f96;
+  color: white;
+  cursor: pointer;
+}
+.caja-astronomas {
+  height: 50px;
+  width: 50px;
+  background-color: #c03232;
+  color: white;
+  cursor: pointer;
+}
+.caja-fisicas {
+  height: 50px;
+  width: 50px;
+  background-color: #f19b39;
+  color: white;
+  cursor: pointer;
+}
+.caja-quimicas {
+  height: 50px;
+  width: 50px;
+  background-color: #e6f331;
+  color: #1c6316;
+  cursor: pointer;
+}
+.caja-ciencias-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #07666e;
+  color: white;
+  text-align: center;
+}
+.caja-bioquimicas-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #64b164;
+  color: white;
+  text-align: center;
+}
+.caja-inventora-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #4d80e0;
+  color: white;
+  text-align: center;
+}
+.caja-paleontologas-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #4babb4;
+  color: white;
+  text-align: center;
+}
+.caja-primatologas-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #71c6ce;
+  color: white;
+  text-align: center;
+}
+.caja-matematicas-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #7e1f96;
+  color: white;
+  text-align: center;
+}
+.caja-astronomas-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #c03232;
+  color: white;
+  text-align: center;
+}
+.caja-fisicas-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #f19b39;
+  color: white;
+  text-align: center;
+}
+.caja-quimicas-titulo {
+  height: 20px;
+  width: 200px;
+  background-color: #e6f331;
+  color: #1c6316;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  h1 {
+    margin: 0px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  h2 {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  body {
+    margin: 40px;
+    background-color: white;
+    padding: 10px;
+  }
+  .tabla-titulos {
+    margin-left: 10px;
+  }
+  .fila {
+    text-align: center;
+  }
+  .tabla2 {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .caja-ciencias {
+    height: 50px;
+    width: 50px;
+    background-color: #07666e;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-bioquimicas {
+    height: 50px;
+    width: 50px;
+    background-color: #64b164;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-inventora {
+    height: 50px;
+    width: 50px;
+    background-color: #4d80e0;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-paleontologas {
+    height: 50px;
+    width: 50px;
+    background-color: #4babb4;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-primatologas {
+    height: 50px;
+    width: 50px;
+    background-color: #71c6ce;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-matematicas {
+    height: 50px;
+    width: 50px;
+    background-color: #7e1f96;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-astronomas {
+    height: 50px;
+    width: 50px;
+    background-color: #c03232;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-fisicas {
+    height: 50px;
+    width: 50px;
+    background-color: #f19b39;
+    color: white;
+    cursor: pointer;
+  }
+  .caja-quimicas {
+    height: 50px;
+    width: 50px;
+    background-color: #e6f331;
+    color: #1c6316;
+    cursor: pointer;
+  }
+  .caja-ciencias-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #07666e;
+    color: white;
+    text-align: center;
+  }
+  .caja-bioquimicas-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #64b164;
+    color: white;
+    text-align: center;
+  }
+  .caja-inventora-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #4d80e0;
+    color: white;
+    text-align: center;
+  }
+  .caja-paleontologas-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #4babb4;
+    color: white;
+    text-align: center;
+  }
+  .caja-primatologas-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #71c6ce;
+    color: white;
+    text-align: center;
+  }
+  .caja-matematicas-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #7e1f96;
+    color: white;
+    text-align: center;
+  }
+  .caja-astronomas-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #c03232;
+    color: white;
+    text-align: center;
+  }
+  .caja-fisicas-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #f19b39;
+    color: white;
+    text-align: center;
+  }
+  .caja-quimicas-titulo {
+    height: 20px;
+    width: 200px;
+    background-color: #e6f331;
+    color: #1c6316;
+    text-align: center;
+  }
+}

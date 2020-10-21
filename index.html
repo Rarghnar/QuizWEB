@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="js/app.js"></script>
+
+    <h1>Tabla Periodica de Cientificas</h1>
+
+    <table class="tabla-titulos">
+        <tr>
+            <td class="caja-ciencias-titulo"> Ciencias Naturales</td>
+            <td class="caja-matematicas-titulo">Matemáticas</td>
+            <td class="caja-quimicas-titulo">Químicas</td>
+        </tr>
+        <tr>
+            <td class="caja-inventora-titulo">Inventoras/Ingenieras</td>
+            <td class="caja-astronomas-titulo">Astrónomas</td>
+            <td class="caja-fisicas-titulo">Físicas</td>
+
+        </tr>
+        <tr>
+            <td class="caja-paleontologas-titulo">Paleontólogas</td>
+            <td class="caja-bioquimicas-titulo">Bioquímicas/biologia/medicina</td>
+            <td class="caja-primatologas-titulo">Primatólogas</td>
+
+        </tr>
+    </table>
+
+    <table>
+        <tr class="fila 1">
+            <td class="caja-ciencias" onclick="nombre('Sy')">Sy</td>
+            <td colspan="16"></td>
+            <td class="caja-bioquimicas" onclick="nombre('Yw');">Yw</td>
+        </tr>
+        <tr class="fila 2">
+            <td class="caja-ciencias" onclick="nombre('St');">St</td>
+            <td class="caja-inventora" onclick="nombre('La');">La</td>
+            <td colspan="10"></td>
+            <td class="caja-bioquimicas" onclick="nombre('Hg');">Hg</td>
+            <td class="caja-bioquimicas" onclick="nombre('Bl');">Bl</td>
+            <td class="caja-bioquimicas" onclick="nombre('Ap');">Ap</td>
+            <td class="caja-bioquimicas" onclick="nombre('Sv');">Sv</td>
+            <td class="caja-bioquimicas" onclick="nombre('Lm');">Lm</td>
+            <td class="caja-bioquimicas" onclick="nombre('Sn');">Sn</td>
+        </tr>
+        <tr class="fila 3">
+            <td class="caja-ciencias" onclick="nombre('Lh');">Lh</td>
+            <td class="caja-inventora" onclick="nombre('Ay');">Ay</td>
+            <td colspan="10"></td>
+            <td class="caja-quimicas" onclick="nombre('Cw');">Cw</td>
+            <td class="caja-bioquimicas" onclick="nombre('Sc');">Sc</td>
+            <td class="caja-bioquimicas" onclick="nombre('T');">T</td>
+            <td class="caja-bioquimicas" onclick="nombre('Wt');">Wt</td>
+            <td class="caja-bioquimicas" onclick="nombre('Nu');">Nu</td>
+            <td class="caja-bioquimicas" onclick="nombre('El');">El</td>
+        </tr>
+        <tr class="fila 4">
+            <td class="caja-ciencias" onclick="nombre('Ba');">Ba</td>
+            <td class="caja-inventora" onclick="nombre('Cr');">Cr</td>
+            <td class="caja-paleontologas" onclick="nombre('An');">An</td>
+            <td class="caja-matematicas" onclick="nombre('C');">C</td>
+            <td class="caja-matematicas" onclick="nombre('Sm');">Sm</td>
+            <td class="caja-matematicas" onclick="nombre('No');">No</td>
+            <td class="caja-astronomas" onclick="nombre('Wk');">Wk</td>
+            <td class="caja-astronomas" onclick="nombre('Fl');">Fl</td>
+            <td class="caja-astronomas" onclick="nombre('Py');">Py</td>
+            <td class="caja-fisicas" onclick="nombre('Cu');">Cu</td>
+            <td class="caja-fisicas" onclick="nombre('Mt');">Mt</td>
+            <td class="caja-fisicas" onclick="nombre('Dr');">Dr</td>
+            <td class="caja-quimicas" onclick="nombre('Fr');">Fr</td>
+            <td class="caja-bioquimicas" onclick="nombre('Mg');">Mg</td>
+            <td class="caja-bioquimicas" onclick="nombre('Bw');">Bw</td>
+            <td class="caja-bioquimicas" onclick="nombre('Kl');">Kl</td>
+            <td class="caja-bioquimicas" onclick="nombre('Br');">Br</td>
+            <td class="caja-bioquimicas" onclick="nombre('Co');">Co</td>
+        </tr>
+        <tr class="fila 5">
+            <td class="caja-ciencias" onclick="nombre('Mh');">Mh</td>
+            <td class="caja-inventora" onclick="nombre('Ho');">Ho</td>
+            <td class="caja-paleontologas" onclick="nombre('Lk');">Lk</td>
+            <td class="caja-matematicas" onclick="nombre('Bs');">Bs</td>
+            <td class="caja-matematicas" onclick="nombre('Ge');">Ge</td>
+            <td class="caja-matematicas" onclick="nombre('Ko');">Ko</td>
+            <td class="caja-astronomas" onclick="nombre('Hr');">Hr</td>
+            <td class="caja-astronomas" onclick="nombre('Lv');">Lv</td>
+            <td class="caja-astronomas" onclick="nombre('Ru');">Ru</td>
+            <td class="caja-fisicas" onclick="nombre('Jc');">Jc</td>
+            <td class="caja-fisicas" onclick="nombre('Gp');">Gp</td>
+            <td class="caja-fisicas" onclick="nombre('Jk');">Jk</td>
+            <td class="caja-quimicas" onclick="nombre('Nd');">Nd</td>
+            <td class="caja-quimicas" onclick="nombre('Rc');">Rc</td>
+            <td class="caja-bioquimicas" onclick="nombre('Ng');">Ng</td>
+            <td class="caja-bioquimicas" onclick="nombre('Ch');">Ch</td>
+            <td class="caja-bioquimicas" onclick="nombre('Gr');">Gr</td>
+            <td class="caja-bioquimicas" onclick="nombre('Ck');">Ck</td>
+        </tr>
+        <tr class="fila 6">
+            <td class="caja-ciencias" onclick="nombre('Th');">Th</td>
+            <td class="caja-inventora" onclick="nombre('K');">K</td>
+            <td class="caja-primatologas" onclick="nombre('Gd');">Gd</td>
+            <td class="caja-matematicas" onclick="nombre('Ag');">Ag</td>
+            <td class="caja-matematicas" onclick="nombre('Mz');">Mz</td>
+            <td class="caja-matematicas" onclick="nombre('H');">H</td>
+            <td class="caja-astronomas" onclick="nombre('Mi');">Mi</td>
+            <td class="caja-astronomas" onclick="nombre('Cn');">Cn</td>
+            <td class="caja-astronomas" onclick="nombre('Be');">Be</td>
+            <td class="caja-fisicas" onclick="nombre('Pe');">Pe</td>
+            <td class="caja-fisicas" onclick="nombre('Sr');">Sr</td>
+            <td class="caja-fisicas" onclick="nombre('Tk');">Tk</td>
+            <td class="caja-quimicas" onclick="nombre('Pz');">Pz</td>
+            <td class="caja-quimicas" onclick="nombre('Bb');">Bb</td>
+            <td class="caja-quimicas" onclick="nombre('Yn');">Yn</td>
+            <td class="caja-bioquimicas" onclick="nombre('Do');">Do</td>
+            <td class="caja-bioquimicas" onclick="nombre('Y');">Y</td>
+            <td class="caja-bioquimicas" onclick="nombre('B');">B</td>
+        </tr>
+        <tr class="fila 7">
+            <td class="caja-ciencias" onclick="nombre('Ca');">Ca</td>
+            <td class="caja-inventora" onclick="nombre('Ha');">Ha</td>
+            <td class="caja-matematicas" onclick="nombre('Lo');">Lo</td>
+            <td class="caja-matematicas" onclick="nombre('Gv');">Gv</td>
+            <td class="caja-matematicas" onclick="nombre('Jh');">Jh</td>
+            <td class="caja-matematicas" onclick="nombre('Lp');">Lp</td>
+            <td class="caja-astronomas" onclick="nombre('Z');">Z</td>
+            <td class="caja-astronomas" onclick="nombre('Rm');">Rm</td>
+            <td class="caja-astronomas" onclick="nombre('Ti');">Ti</td>
+            <td class="caja-fisicas" onclick="nombre('W');">W</td>
+            <td class="caja-fisicas" onclick="nombre('Bu');">Bu</td>
+            <td class="caja-fisicas" onclick="nombre('Fy');">Fy</td>
+            <td class="caja-quimicas" onclick="nombre('Pc');">Pc</td>
+            <td class="caja-quimicas" onclick="nombre('Ln');">Ln</td>
+            <td class="caja-quimicas" onclick="nombre('Al');">Al</td>
+            <td class="caja-quimicas" onclick="nombre('Me');">Me</td>
+            <td class="caja-bioquimicas" onclick="nombre('Bt');">Bt</td>
+            <td class="caja-bioquimicas" onclick="nombre('Ms');">Ms</td>
+        </tr>
+    </table>
+
+    <table class="tabla2">
+        <tr class="fila 8">
+            <td class="caja-inventora" onclick="nombre('Cb');">Cb</td>
+            <td class="caja-matematicas" onclick="nombre('Cs');">Cs</td>
+            <td class="caja-matematicas" onclick="nombre('Wo');">Wo</td>
+            <td class="caja-astronomas" onclick="nombre('F');">F</td>
+            <td class="caja-astronomas" onclick="nombre('Ct');">Ct</td>
+            <td class="caja-fisicas" onclick="nombre('Yz');">Yz</td>
+            <td class="caja-fisicas" onclick="nombre('Mb');">Mb</td>
+            <td class="caja-quimicas" onclick="nombre('Bn');">Bn</td>
+            <td class="caja-quimicas" onclick="nombre('Ju');">Ju</td>
+            <td class="caja-bioquimicas" onclick="nombre('Sl');">Sl</td>
+            <td class="caja-bioquimicas" onclick="nombre('Bc');">Bc</td>
+            <td class="caja-bioquimicas" onclick="nombre('Zn');"> Zn</td>
+            <td class="caja-bioquimicas" onclick="nombre('Mo');">Mo</td>
+            <td class="caja-paleontologas" onclick="nombre('Ma');">Ma</td>
+        </tr>
+        <tr class="fila 9">
+            <td class="caja-inventora" onclick="nombre('Rr');">Rr</td>
+            <td class="caja-matematicas" onclick="nombre('Cl');">Cl</td>
+            <td class="caja-matematicas" onclick="nombre('By');">By</td>
+            <td class="caja-astronomas" onclick="nombre('Fe');">Fe</td>
+            <td class="caja-fisicas" onclick="nombre('Rd');">Rd</td>
+            <td class="caja-fisicas" onclick="nombre('Mr');">Mr</td>
+            <td class="caja-fisicas" onclick="nombre('Si');">Si</td>
+            <td class="caja-quimicas" onclick="nombre('Fu');">Fu</td>
+            <td class="caja-quimicas" onclick="nombre('Mn');">Mn</td>
+            <td class="caja-bioquimicas" onclick="nombre('Vr');">Vr</td>
+            <td class="caja-bioquimicas" onclick="nombre('Ni');">Ni</td>
+            <td class="caja-bioquimicas" onclick="nombre('Bd');">Bd</td>
+            <td class="caja-ciencias" onclick="nombre('Av');">Av</td>
+            <td class="caja-ciencias" onclick="nombre('Cv');">Cv</td>
+        </tr>
+    </table>
+
+    <h2 id="nombre"></h2>
+
+
+</body>
+
+</html>
