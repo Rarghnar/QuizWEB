@@ -1,4 +1,5 @@
 "use strict";
+
 function nombre(nombre) {
     if (nombre.localeCompare('')) {
         document.getElementById("nombre").innerHTML = "Sin Nombre";
